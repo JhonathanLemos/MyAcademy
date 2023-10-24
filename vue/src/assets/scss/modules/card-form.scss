@@ -1,0 +1,17 @@
+.card-form {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	.card-container {
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+		border-radius: 8px;
+	}
+
+	.card-subtitle {
+		border-bottom: 1px solid #e1e1e1;
+		font-size: 17px;
+		text-align: left;
+	}
+}

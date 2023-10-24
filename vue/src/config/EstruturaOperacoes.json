@@ -1,0 +1,54 @@
+{
+    "blocos": [
+      {
+        "name": "Conteúdos",
+        "itens": [
+          {
+               "icon": "mdi-account-group",
+              "name": "Usuários",
+              "router": "ViewUsuarios",
+              "params": {
+                  "tituloView": "Painel de Controle",
+                  "btnInclude": "true",
+                  "pesquisar": "true",
+                  "filtro": "false"
+              }
+          },
+          {
+            "icon": "mdi-account-group",
+            "name": "Clientes",
+            "router": "ViewClientes",
+            "params": {
+                "tituloView": "Clientes",
+                "btnInclude": "true",
+                "pesquisar": "true",
+                "filtro": "false"
+            }
+        },
+        {
+          "icon": "mdi-account-group",
+          "name": "Exercicios",
+          "router": "ViewExercicios",
+          "params": {
+              "tituloView": "Exercicios",
+              "btnInclude": "true",
+              "pesquisar": "true",
+              "filtro": "false"
+          }
+      },
+      {
+        "icon": "mdi-account-group",
+        "name": "Treinos",
+        "router": "ViewTreinos",
+        "params": {
+            "tituloView": "Treinos",
+            "btnInclude": "true",
+            "pesquisar": "true",
+            "filtro": "false"
+        }
+    }
+
+      ]
+    }
+    ]
+}

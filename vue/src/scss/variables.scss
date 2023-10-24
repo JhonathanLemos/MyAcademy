@@ -1,0 +1,207 @@
+@import '~vuetify/src/styles/tools/_functions.sass';
+
+$Academia-purple: (
+  ) !default;
+$Academia-purple: map-deep-merge(('base': purple,
+    ),
+    $Academia-purple
+);
+
+$Academia-yellow: (
+  ) !default;
+$Academia-yellow: map-deep-merge(('base': #ffee00,
+      'var-1': #fcc900,
+    ),
+    $Academia-yellow
+);
+
+$Academia-neutral: (
+  ) !default;
+$Academia-neutral: map-deep-merge(('base': white,
+      'var-1': #434343,
+      'var-2': #747474,
+      'var-3': #A9A9A9,
+      'var-4': #E1E1E1,
+      'var-5': #F5F5F5,
+    ),
+    $Academia-neutral
+);
+
+$colors: (
+  ) !default;
+$colors: map-deep-merge(('Academia-purple': $Academia-purple,
+      'Academia-yellow': $Academia-yellow,
+      'Academia-neutral': $Academia-neutral ),
+    $colors
+);
+
+$body-font-family: 'Inter', sans-serif !default;
+
+$bg-gradient: linear-gradient(90deg, #f5d234, #F6C449, #F6AB4C, #F6944C);
+.gradient {
+  background: $bg-gradient;
+}
+
+.gradient-text {
+  background: $bg-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  color: $bg-gradient;
+}
+
+.gradient-span {
+  background: linear-gradient(90deg, #F6D74C, #F6C449, #F6AB4C, #F6944C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.required {
+  .v-label::after {
+    content: '*';
+    display: inline;
+    color: #FFEC44;
+    padding-left: 2px;
+  }
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+$btn-toggle-btn-opacity: 1 !default;
+
+$icon-outlined-border-width: 2px !default;
+
+$navigation-drawer-border-width: 0px !default;
+
+$data-table-regular-header-font-size: 14px !default;
+
+$text-field-dense-padding: 2px 0 1px !default;
+
+$radio-group-padding: 0px !default;
+
+table > tbody:hover {
+  cursor: pointer;
+}
+.v-date-picker-table >table> tbody >tr > td > button> div{
+  color: white !important;
+}
+.v-date-picker-table >table> thead >tr > th {
+  color: white !important;
+cursor: pointer;
+}
+.v-date-picker-header__value > .orange--text > button {
+  color: #f5d234;
+}
+.v-data-table-header {
+  color: white;
+  height: 50px !important;
+  border-radius: 10px !important;
+}
+.v-picker__body{
+  background-color: #161A1E !important;
+  color: white;
+}
+.v-date-picker-header__value button {
+  color: white;
+}
+.v-data-table-header {
+  color: white;
+  height: 50px !important;
+  border-radius: 10px !important;
+}
+
+.v-data-table > .v-data-table__wrapper > table > thead > tr > th {
+  color: white !important;
+
+}
+
+.v-data-table__wrapper{
+  background-color: #071422;
+  color: white;
+
+}
+
+.background-black{
+  background-color: #071422 !important;
+  color: white;
+}
+
+.v-data-footer{
+  background-color: #071422;
+  color: white;
+
+}
+
+
+.theme--light.v-btn.v-btn--icon {
+  color: white;
+}
+
+.v-data-footer__select .v-select__selections .v-select__selection--comma {
+  color: white;
+}
+
+
+// .v-icon{
+//   color: white !important;
+// }
+
+.theme--light.v-icon {
+  color: white ;}
+
+
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+    border-color: white
+}
+
+.color-white{
+  color: white;
+}
+
+.background-purple{
+  background-color: #BFACFF !important;
+}
+
+.v-dialog{
+  box-shadow: none !important;
+  border-radius: 30px;
+}
+
+.text-field{
+  background-color: #040F1A !important;
+  margin: 5px 0px 5px 0px !important;
+}
+
+// .v-btn{
+//   margin: 5px !important
+// }
+
+.sem-background{
+  background-color: unset !important;
+}
